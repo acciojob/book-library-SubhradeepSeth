@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#f8f8f8;
+}
+.book-library{
+	background-color:#ffffff;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	width:50%;
+}
+img{
+	height:300px;
+	width:200px;
+	align-self:center;
+}
+.book{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+/* 	align-items:center; */
+	text-align:left;
+	margin:10px;
+	padding:10px;
+/* 	background-color:#f8f8f8; */
+}
+.book p{
+	align-self:left;
+	color:#777777;
+}
+button{
+	border:none;
+	background-color:#2ecc71;
+	padding:10px;
+	border-radius:5px;
+}
