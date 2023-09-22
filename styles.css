@@ -7,7 +7,7 @@ body{
 	background-color:#f8f8f8;
 }
 .book-library{
-	background-color:rgb(0, 0, 0);
+	background-color:#ffffff;
 	display:flex;
 	flex-direction:column;
 	text-align:center;
@@ -24,18 +24,16 @@ img{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-/* 	align-items:center; */
 	text-align:left;
 	margin:10px;
 	padding:10px;
 	background-color:rgb(255, 255, 255);
-/* 	background-color:#f8f8f8; */
 }
 .book p{
 	align-self:left;
 	color:#777777;
 }
-.book div{
+.price{
 	border:none;
 	background-color:#2ecc71;
 	padding:10px;
